@@ -3,7 +3,6 @@
 [![DUB](https://img.shields.io/dub/l/vibe-d.svg?style=flat-square)](https://github.com/marshmelloX/react-native-stt#license)
 
 react-native-stt is a speech-to-text library for [React Native](https://facebook.github.io/react-native/).
-
 This project combines the works of [react-native-speech-to-text-ios](https://github.com/muhaos/react-native-speech-to-text-ios) and [react-native-android-speech-recognizer](https://github.com/de-code/react-native-android-speech-recognizer).
 
 ## Documentation
