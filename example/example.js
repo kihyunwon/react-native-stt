@@ -27,7 +27,6 @@ export default class Example extends Component {
     this.subscription =
       Stt.addListener('SpeechToText', (result) => {
         if (result) {
-          alert(JSON.stringify(result));
           if (result.error) {
             alert(JSON.stringify(result.error));
           } else if (result.bestTranscription) {
