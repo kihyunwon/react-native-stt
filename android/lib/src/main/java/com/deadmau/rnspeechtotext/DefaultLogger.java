@@ -1,0 +1,28 @@
+package com.deadmau.rnspeechtotext;
+
+import android.util.Log;
+
+public class DefaultLogger implements Logger.LoggerDelegate {
+
+  private static final String TAG = RNSpeechToText.class.getSimpleName();
+
+  @Override
+  public void error(String tag, String message) {
+    Log.e(TAG, tag + " - " + message);
+  }
+
+  @Override
+  public void error(String tag, String message, Throwable exception) {
+    Log.e(TAG, tag + " - " + message, exception);
+  }
+
+  @Override
+  public void debug(String tag, String message) {
+    Log.d(TAG, tag + " - " + message);
+  }
+
+  @Override
+  public void info(String tag, String message) {
+    Log.i(TAG, tag + " - " + message);
+  }
+}

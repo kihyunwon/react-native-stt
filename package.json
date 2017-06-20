@@ -1,0 +1,17 @@
+{
+  "name": "react-native-stt",
+  "version": "0.0.1",
+  "description": "React Native extension for speech-to-text",
+  "main": "index.js",
+  "author": "Ki Hyun Won <kithwon@gmail.com>",
+  "keywords": [
+    "react-native",
+    "stt",
+    "speech-to-text"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:marshmelloX/react-native-stt.git"
+  },
+  "nativePackage": true
+}
